@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EdAnime-About</title>
+        <link rel ="stylesheet" href="about.css">
+        <meta charset="UTF-8" > 
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+
+    <style>
+        .mySlides {display:none;}
+    </style>
+<body>
+<div class="header">
+        <div class = "navcont">
+            <div class="navbar">
+                <div class = "logo">
+                   <h2 align="center">ABOUT</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="intro.html">Home</a></li>
+                        <li><a href="Tutorials.html">Tutorials</a></li>
+                        <li><a href="about.html">About</a></li> 
+                        <li><a href="account.html">Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+</div>
+<center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="bhavya2.gif" style="width:100%">
+        <img class="mySlides" src="DEDEE2.gif" style="width:100%">
+        <img class="mySlides" src="ALEKHYA2.gif" style="width:100%">
+        <img class="mySlides" src="pradeep1.gif" style="width:100%">
+        
+
+        
+
+
+      </div>
+
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3500); 
+      }
+      </script>
+    </center>
+      
+    <footer>
+        <p class="copyright">EDANIME © 2022</p>
+    </footer>
+
+</body>
+</html>

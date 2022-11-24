@@ -1,0 +1,9 @@
+body {
+    background-image: url("design\ 4.gif");
+    background-repeat: no-repeat;
+}
+input {
+    padding : 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}  
